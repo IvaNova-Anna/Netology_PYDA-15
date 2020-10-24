@@ -1,1 +1,261 @@
 Basics of Python/homework
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Phrase1 = \"РљР°Р·РЅРёС‚СЊ, РЅРµР»СЊР·СЏ РїРѕРјРёР»РѕРІР°С‚СЊ!\"\n",
+    "Phrase2 = \"To be or not to be\"\n",
+    "if len(Phrase1) > len(Phrase2):\n",
+    "    print(\"Р¤СЂР°Р·Р° 1 РґР»РёРЅРЅРµРµ С„СЂР°Р·С‹ 2\")\n",
+    "elif len(Phrase1) < len(Phrase2):\n",
+    "    print(\"Р¤СЂР°Р·Р° 2 РґР»РёРЅРµРµ С„СЂР°Р·С‹ 1\")\n",
+    "else:\n",
+    "    print(\"Р¤СЂР°Р·С‹ РѕРґРёРЅР°РєРѕРІРѕР№ РґР»РёРЅС‹\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Р¤СЂР°Р·Р° 2 РґР»РёРЅРµРµ С„СЂР°Р·С‹ 1\n"
+     ]
+    }
+   ],
+   "source": [
+    "Phrase1 = \"РљР°Р·РЅРёС‚СЊ, РЅРµР»СЊР·СЏ РїРѕРјРёР»РѕРІР°С‚СЊ!\"\n",
+    "Phrase2 = \"To be or not to be. What is the question!\"\n",
+    "if len(Phrase1) > len(Phrase2):\n",
+    "    print(\"Р¤СЂР°Р·Р° 1 РґР»РёРЅРЅРµРµ С„СЂР°Р·С‹ 2\")\n",
+    "elif len(Phrase1) < len(Phrase2):\n",
+    "    print(\"Р¤СЂР°Р·Р° 2 РґР»РёРЅРµРµ С„СЂР°Р·С‹ 1\")\n",
+    "else:\n",
+    "    print(\"Р¤СЂР°Р·С‹ РѕРґРёРЅР°РєРѕРІРѕР№ РґР»РёРЅС‹\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Р¤СЂР°Р·С‹ РѕРґРёРЅР°РєРѕРІРѕР№ РґР»РёРЅС‹\n"
+     ]
+    }
+   ],
+   "source": [
+    "Phrase1 = \"РљР°Р·РЅРёС‚СЊ, РЅРµР»СЊР·СЏ РїРѕРјРёР»РѕРІР°С‚СЊ!\"\n",
+    "Phrase2 = \"РљР°Р·РЅРёС‚СЊ, РЅРµР»СЊР·СЏ РїРѕРјРёР»РѕРІР°С‚СЊ!\"\n",
+    "if len(Phrase1) > len(Phrase2):\n",
+    "    print(\"Р¤СЂР°Р·Р° 1 РґР»РёРЅРЅРµРµ С„СЂР°Р·С‹ 2\")\n",
+    "elif len(Phrase1) < len(Phrase2):\n",
+    "    print(\"Р¤СЂР°Р·Р° 2 РґР»РёРЅРµРµ С„СЂР°Р·С‹ 1\")\n",
+    "else:\n",
+    "    print(\"Р¤СЂР°Р·С‹ РѕРґРёРЅР°РєРѕРІРѕР№ РґР»РёРЅС‹\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Р’РІРµРґРёС‚Рµ РіРѕРґ 1500\n",
+      "Р’РёСЃРѕРєРѕСЃРЅС‹Р№ РіРѕРґ\n"
+     ]
+    }
+   ],
+   "source": [
+    "year = int(input('Р’РІРµРґРёС‚Рµ РіРѕРґ '))\n",
+    "if year % 400 == 0:\n",
+    "    print('Р’РёСЃРѕРєРѕСЃРЅС‹Р№ РіРѕРґ')\n",
+    "elif year % 4 == 0:\n",
+    "    print('Р’РёСЃРѕРєРѕСЃРЅС‹Р№ РіРѕРґ')\n",
+    "elif year % 100 == 0:\n",
+    "    print('РћР±С‹С‡РЅС‹Р№ РіРѕРґ')\n",
+    "else:\n",
+    "    print('РћР±С‹С‡РЅС‹Р№ РіРѕРґ')\n",
+    "    \n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Р’РІРµРґРёС‚Рµ РґР°С‚Сѓ 2020\n"
+     ]
+    }
+   ],
+   "source": [
+    "date = int(input('Р’РІРµРґРёС‚Рµ РґР°С‚Сѓ '))\n",
+    "month = (input ('Р’РІРµРґРёС‚Рµ РјРµСЃСЏС† '))\n",
+    "if date >= 21 and month == 'РЇРЅРІР°СЂСЊ' or date <= 19 and month =='Р¤РµРІСЂР°Р»СЊ':\n",
+    "    print ('Р’Р°С€ Р·РЅР°Рє Р·РѕРґРёР°РєР°: Р’РѕРґРѕР»РµР№')\n",
+    "elif date >=20 and month =='Р¤РµРІСЂР°Р»СЊ' or date <=20 and month =='РњР°СЂС‚':\n",
+    "    print ('Р’Р°С€ Р·РЅР°Рє Р·РѕРґРёР°РєР°: Р С‹Р±Р°')\n",
+    "elif date >=22 and month=='Р”РµРєР°Р±СЂСЊ' or date<=20 and month=='РЇРЅРІР°СЂСЊ':\n",
+    "    print ('Р’Р°С€ Р·РЅР°Рє Р·РѕРґРёР°РєР°: РљРѕР·РµСЂРѕРі')\n",
+    "elif date >=22 and month=='РќРѕСЏР±СЂСЊ' or date<=21 and month=='Р”РµРєР°Р±СЂСЊ':\n",
+    "    print ('Р’Р°С€ Р·РЅР°Рє Р·РѕРґРёР°РєР°: РЎС‚СЂРµР»РµС†')\n",
+    "elif date >=23 and month=='РћРєС‚СЏР±СЂСЊ' or date<=21 and month=='РќРѕСЏР±СЂСЊ':\n",
+    "    print ('Р’Р°С€ Р·РЅР°Рє Р·РѕРґРёР°РєР°: РЎРєРѕСЂРїРёРѕРЅ')\n",
+    "elif date >=23 and month=='РЎРµРЅС‚СЏР±СЂСЊ' or date<=22 and month=='РћРєС‚СЏР±СЂСЊ':\n",
+    "    print ('Р’Р°С€ Р·РЅР°Рє Р·РѕРґРёР°РєР°: Р’РµСЃС‹')\n",
+    "elif date >=24 and month=='РђРІРіСѓСЃС‚' or date<=22 and month=='РЎРµРЅС‚СЏР±СЂСЊ':\n",
+    "    print ('Р’Р°С€ Р·РЅР°Рє Р·РѕРґРёР°РєР°: Р”РµРІР°')\n",
+    "elif date >=23 and month=='РСЋР»СЊ' or date<=23 and month=='РђРІРіСѓСЃС‚':\n",
+    "    print ('Р’Р°С€ Р·РЅР°Рє Р·РѕРґРёР°РєР°: Р›РµРІ')\n",
+    "elif date >=22 and month=='РСЋРЅСЊ' or date<=22 and month=='РСЋР»СЊ':\n",
+    "    print ('Р’Р°С€ Р·РЅР°Рє Р·РѕРґРёР°РєР°: Р Р°Рє')\n",
+    "elif date >=22 and month=='РњР°Р№' or date<=21 and month=='РСЋРЅСЊ':\n",
+    "    print ('Р’Р°С€ Р·РЅР°Рє Р·РѕРґРёР°РєР°: Р‘Р»РёР·РЅРµС†С‹')\n",
+    "elif date >=21 and month=='РђРїСЂРµР»СЊ' or date<=21 and month=='РњР°Р№':\n",
+    "    print ('Р’Р°С€ Р·РЅР°Рє Р·РѕРґРёР°РєР°: РўРµР»РµС†')\n",
+    "else:\n",
+    "    print ('Р’Р°С€ Р·РЅР°Рє Р·РѕРґРёР°РєР°: РћРІРµРЅ')\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Р’РІРµРґРёС‚Рµ С€РёСЂРёРЅСѓ РІ СЃРј 45\n",
+      "Р’РІРµРґРёС‚Рµ РґР»РёРЅСѓ РІ СЃРј 205\n",
+      "Р’РІРµРґРёС‚Рµ РІС‹СЃРѕС‚Сѓ РІ СЃРј 45\n",
+      "РЈРїР°РєРѕРІРєР° РґР»СЏ Р»С‹Р¶\n"
+     ]
+    }
+   ],
+   "source": [
+    "width = int(input0('Р’РІРµРґРёС‚Рµ С€РёСЂРёРЅСѓ РІ СЃРј '))\n",
+    "length = int(input('Р’РІРµРґРёС‚Рµ РґР»РёРЅСѓ РІ СЃРј '))\n",
+    "height = int(input ('Р’РІРµРґРёС‚Рµ РІС‹СЃРѕС‚Сѓ РІ СЃРј '))\n",
+    "if width <= 15 and length <= 15 and height <= 15:\n",
+    "    print('РљРѕСЂРѕР±РєР° в„–1')\n",
+    "elif((width > 15 and width <=50 or height > 15 and height <= 50) and (length > 15 and length <= 50)):\n",
+    "    print('РљРѕСЂРѕР±РєР° в„–2')\n",
+    "elif length >= 200:\n",
+    "    print('РЈРїР°РєРѕРІРєР° РґР»СЏ Р»С‹Р¶')\n",
+    "else:\n",
+    "    print('РЎС‚Р°РЅРґР°СЂС‚РЅР°СЏ РєРѕСЂРѕР±РєР° в„–3')\n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 33,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Р’РІРµРґРёС‚Рµ С€РµСЃС‚РёР·РЅР°С‡РЅС‹Р№ РЅРѕРјРµСЂ Р±РёР»РµС‚Р° 235235\n",
+      "РџРѕР·РґСЂР°РІР»СЏСЋ, Сѓ Р’Р°СЃ СЃС‡Р°СЃС‚Р»РёРІС‹Р№ Р±РёР»РµС‚!\n"
+     ]
+    }
+   ],
+   "source": [
+    "ticket_number = int(input( 'Р’РІРµРґРёС‚Рµ С€РµСЃС‚РёР·РЅР°С‡РЅС‹Р№ РЅРѕРјРµСЂ Р±РёР»РµС‚Р° '))\n",
+    "\n",
+    "ticket_number1 = ticket_number//100000\n",
+    "ticket_number2 = (ticket_number%100000)//10000\n",
+    "ticket_number3 = (ticket_number%10000)//1000\n",
+    "ticket_number4 = (ticket_number%1000)//100\n",
+    "ticket_number5 = (ticket_number%100)//10\n",
+    "ticket_number6 = (ticket_number%10)\n",
+    "if ticket_number1+ticket_number2+ticket_number3 == ticket_number4+ticket_number5+ticket_number6:\n",
+    "    print('РџРѕР·РґСЂР°РІР»СЏСЋ, Сѓ Р’Р°СЃ СЃС‡Р°СЃС‚Р»РёРІС‹Р№ Р±РёР»РµС‚!')\n",
+    "else:\n",
+    "    print('РЈРІС‹, СѓРґР°С‡Р° Р’Р°Рј РѕР±СЏР·Р°С‚РµР»СЊРЅРѕ СѓР»С‹Р±РЅРµС‚СЃСЏ, РЅРѕ РІ РґСЂСѓРіРѕР№ СЂР°Р·!')\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 46,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Р’РІРµРґРёС‚Рµ С„РёРіСѓСЂСѓ: РєСЂСѓРі, С‚СЂРµСѓРіРѕР»СЊРЅРёРє РёР»Рё РїСЂСЏРјРѕСѓРіРѕР»СЊРЅРёРє? РїСЂСЏРјРѕСѓРіРѕР»СЊРЅРёРє\n",
+      "Р’РІРµРґРёС‚Рµ РґР»РёРЅСѓ СЃС‚СЂРѕРЅС‹ a 4\n",
+      "Р’РІРµРґРёС‚Рµ РґР»РёРЅСѓ СЃС‚СЂРѕРЅС‹ b 4\n",
+      "РџР»РѕС‰Р°РґСЊ РїСЂСЏРјРѕСѓРіРѕР»СЊРЅРёРєР°= 16\n"
+     ]
+    }
+   ],
+   "source": [
+    "figure = input('Р’РІРµРґРёС‚Рµ С„РёРіСѓСЂСѓ: РєСЂСѓРі, С‚СЂРµСѓРіРѕР»СЊРЅРёРє РёР»Рё РїСЂСЏРјРѕСѓРіРѕР»СЊРЅРёРє? ')\n",
+    "if figure == ('РєСЂСѓРі'):\n",
+    "    radius = int(input('Р’РІРµРґРёС‚Рµ СЂР°РґРёСѓСЃ РєСЂСѓРіР° '))\n",
+    "    print('РџР»РѕС‰Р°РґСЊ РєСЂСѓРіР°=',3.14 * radius)\n",
+    "elif figure == ('С‚СЂРµСѓРіРѕР»СЊРЅРёРє'):\n",
+    "    l1 = int(input('Р’РІРµРґРёС‚Рµ РґР»РёРЅСѓ СЃС‚СЂРѕРЅС‹ a '))\n",
+    "    l2 = int(input('Р’РІРµРґРёС‚Рµ РґР»РёРЅСѓ СЃС‚СЂРѕРЅС‹ b '))\n",
+    "    l3 = int(input('Р’РІРµРґРёС‚Рµ РґР»РёРЅСѓ СЃС‚СЂРѕРЅС‹ c '))\n",
+    "    p = (l1 + l2 + l3) / 2\n",
+    "    print('РџР»РѕС‰Р°РґСЊ С‚СЂРµСѓРіРѕР»СЊРЅРёРєР°=',(((p-l1)*(p-l2)*(p-l3)*p)*0.5))\n",
+    "elif figure == ('РїСЂСЏРјРѕСѓРіРѕР»СЊРЅРёРє'):\n",
+    "    l1 = int(input('Р’РІРµРґРёС‚Рµ РґР»РёРЅСѓ СЃС‚СЂРѕРЅС‹ a '))\n",
+    "    l2 = int(input('Р’РІРµРґРёС‚Рµ РґР»РёРЅСѓ СЃС‚СЂРѕРЅС‹ b '))\n",
+    "    print('РџР»РѕС‰Р°РґСЊ РїСЂСЏРјРѕСѓРіРѕР»СЊРЅРёРєР°=',l1*l2)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.8.3"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 4
+}
